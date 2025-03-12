@@ -1,0 +1,16 @@
+# importing pandas as pd
+import pandas as pd
+  
+# Creating the DataFrame
+df = pd.DataFrame({'Weight':[23, 78, 46, 35, 61, 72, 34, 56, 78, 55, 41, 55, 32, 68, 42, 12, 37, 29, 32, 40, 23, 8, 20, 52, 26],
+                   'Name':['Sat', 'Andre', 'Allen', 'Robert', 'Kia', 'Ron', 'Sean', 'Jason', 'Keron', 'Elijah', 'Kayla', 'Troy', 'Pat', 'David', 'Abby', 'Pam', 'Jake', 'Bob', 'Ronny', 'John', 'Cam', 'India', 'William', 'Wyatt', 'Quency'],
+                   'Age':[24, 35, 28, 16, 21, 12, 30, 42, 22, 28, 18, 39, 20, 50, 36, 6, 49, 29, 32, 18, 22, 40, 62, 10, 25]})
+  
+# Create the index
+index_ = ['Row 1', 'Row 2', 'Row 3', 'Row 4', 'Row 5', 'Row 6', 'Row 7', 'Row 8', 'Row 9', 'Row 10', 'Row 11', 'Row 12','Row 13', 'Row 14', 'Row 15', 'Row 16', 'Row 17', 'Row 18', 'Row 19', 'Row 20', 'Row 21', 'Row 22', 'Row 23', 'Row 24', 'Row 25']
+  
+# Set the index
+df.index = index_
+  
+# Print the DataFrame
+print(df)
